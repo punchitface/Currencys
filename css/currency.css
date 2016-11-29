@@ -67,11 +67,11 @@ html, body {
 }
 
 .course-day {
-    text-align: center;
     padding: 20px 0;
     margin-top: 40px;
     font-family: "Myriad Pro Regular", sans-serif;
-    color: #aaa;
+    color: #000;
+    padding-left: 100px;
 }
 
 .course-rate {
@@ -86,9 +86,10 @@ html, body {
 .course-rate__th {
     font-size: 20px;
     padding: 20px;
-    background: #08c;
+    background: #00679b;
     color: #fff;
     border-collapse: collapse;
+    font-family: "Myriad Pro Condensed", sans-serif;
 }
 
 .course-rate__tr {
@@ -121,4 +122,45 @@ html, body {
     font-weight: bold;
     font-size: 23px;
     color: #08c;
+}
+
+.course-bank {
+    width: 750px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.course-bank-th {
+    text-align: center;
+    padding: 20px;
+    background: #00679b;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Myriad Pro Condensed", sans-serif;
+}
+
+.course-border {
+    border-bottom: 1px solid;
+}
+
+.course-bank-tr {
+    border: 1px solid;
+}
+
+.course-bank-td {
+    border: 1px solid #ececec;
+    padding: 20px;
+    text-align: center;
+    font-family: "Myriad Pro Regular", sans-serif;
+
+}
+
+.view-bank-tlf {
+    font-size: 13px;
+}
+
+.bank-name {
+    color: #D50D81;
+
 }
